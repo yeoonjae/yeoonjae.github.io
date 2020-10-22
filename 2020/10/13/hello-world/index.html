@@ -192,7 +192,7 @@
 <div style="position: fixed; bottom: 10%; right: 3.5%;">
     <button type="button" class="btn btn-warning" style="font-weight: bold;" data-toggle="modal" data-target="#staticBackdrop">프로젝트 기술서<br>보기</button>
 </div>
-<div class="modal" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" >
+<div class="modal" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 3000;">
     <div class="modal-dialog modal-dialog-scrollable">
       <div class="modal-content">
         <div class="modal-header">
@@ -206,6 +206,43 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 야 여기서놀자 PPT 영역-->
+  <div class='modal' id='pension' data-backdrop='static' data-keyboard='false' tabindex='-1' aria-labelledby='staticBackdropLabel' aria-hidden='true' style="z-index: 3000;">
+    <div class='modal-dialog modal-dialog-scrollable'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h3 class='modal-title' id='staticBackdropLabel'>Let's play here</h3>
+          <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+            <span aria-hidden='true'>&times;</span>
+          </button>
+        </div><div class='modal-body' style='height: 500px; width: 600px;'>
+            <iframe data-parallax='scroll' src='img/pension.pdf' style='width: 100%; height: 100%;'>{% pdf http://7xov2f.com1.z0.glb.clouddn.com/bash_freshman.pdf %}</iframe>
+        </div>
+        <div class='modal-footer'>
+          <button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 야 여기서놀자 PPT 영역 end -->
+  <!-- 스터디카페 PPT영역-->
+  <div class='modal' id='spatium' data-backdrop='static' data-keyboard='false' tabindex='-1' aria-labelledby='staticBackdropLabel' aria-hidden='true' style="z-index: 3000;">
+    <div class='modal-dialog modal-dialog-scrollable'>
+      <div class='modal-content'>
+        <div class='modal-header'>
+          <h3 class='modal-title' id='staticBackdropLabel'>Let's play here</h3>
+          <button type='button' class='close' data-dismiss='modal' aria-label='Close'>
+            <span aria-hidden='true'>&times;</span>
+          </button>
+        </div><div class='modal-body' style='height: 500px; width: 600px;'>
+            <iframe data-parallax='scroll' src='img/SPATIUM.pdf' style='width: 100%; height: 100%;'>{% pdf http://7xov2f.com1.z0.glb.clouddn.com/bash_freshman.pdf %}</iframe>
+        </div>
+        <div class='modal-footer'>
+          <button type='button' class='btn btn-secondary' data-dismiss='modal'>Close</button>
         </div>
       </div>
     </div>
