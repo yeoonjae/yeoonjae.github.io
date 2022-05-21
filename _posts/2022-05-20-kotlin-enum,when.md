@@ -3,7 +3,7 @@ title: "[kotlin] enum과 when"
 categories:
   - kotlin
 tags:
-  - kotlin, kotlin in action
+  - kotlin
 toc: true
 ---
 

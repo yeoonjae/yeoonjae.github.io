@@ -3,7 +3,7 @@ title: "[kotlin] while과 for"
 categories:
   - kotlin
 tags:
-  - kotlin, kotlin in action
+  - kotlin
 toc: true
 ---
 

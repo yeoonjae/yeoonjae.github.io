@@ -1,7 +1,17 @@
+---
+title: "[kotlin] Exception"
+categories:
+  - kotlin
+tags:
+  - kotlin
+toc: true
+---
+
 > 해당 글은 kotlin in action 을 참고하여 작성하였습니다. 
 
 # **Exception**
 * 예외처리방식은 자바와 비슷하다
+
 ```kotlin
 fun exceptionTest(percentage:Int) {
         if (percentage !in 0..100) {
