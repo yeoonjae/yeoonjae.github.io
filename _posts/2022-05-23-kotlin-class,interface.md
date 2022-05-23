@@ -329,7 +329,20 @@ fun main() {
     loadFromJSON(CUser)
 }
 ```
+## **동반객체의 확정 함수**
+```kotlin
+// 비즈니스 로직 모듈
+class Person(val firstName: String, val lastName: String) {
+    companion object {} // 비어있는 동반 객체 선언
+}
 
+// 클라이언트/서버 통신 모듈
+fun Person.companion.fromJSON(json: String): Person {
+    ... // 확장함수 선언
+}
+
+val p = Person.fromJSON(json)
+```
 
 참고한 사이트
 * https://pompitzz.github.io/blog/Kotlin/kotlinInAction.html#%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3-%E1%84%91%E1%85%B3%E1%84%85%E1%85%A9%E1%84%91%E1%85%A5%E1%84%90%E1%85%B5%E1%84%8B%E1%85%AA-backing-field
