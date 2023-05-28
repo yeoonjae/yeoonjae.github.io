@@ -4,7 +4,7 @@ minimal_mistakes_skin    : "dirt" # 태마 색 설정 ,"default", "air", "aqua",
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "💻 Teck Blog" # Meta 태그에 들어가는 영역, masthead_title등이 없으면 기본값으로 나온다.
+title                    : "Teck Blog" # Meta 태그에 들어가는 영역, masthead_title등이 없으면 기본값으로 나온다.
 title_separator          : "&#124;" # 타이틀 사이 구분자 <title>Welcome to Jekyll | Minimal Mistakes</title> 해당 형식으로 들어갑니다.
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yeonjae"
@@ -12,9 +12,9 @@ description              : "" # Meta 태그에 들어가는 영역
 url                      : "https://yeoonjae.github.io" # GitBlog 호스트 주소
 baseurl                  : "/" # subPath https://7271kim.github.io/blog라고 하고 싶을 시 "/blog" 라고 적는다.
 repository               :  "yeoonjae/yeoonjae.github.io" # GitHub username/repo-name
-teaser                   : # "/assets/images/senior-couple-4723737_640.jpg" # 홈페이지 기본 티져 이미지
-logo                     : # 타이틀 옆에 작게 들어갈 이미지.
-masthead_title           : "💻 Tech Blog" # 홈페이지 최 상탄에 들어갈 타이틀
+teaser                   : "/assets/images/custom/logo.png"# "/assets/images/senior-couple-4723737_640.jpg" # 홈페이지 기본 티져 이미지
+logo                     : "/assets/images/custom/logo.png"# 타이틀 옆에 작게 들어갈 이미지.
+masthead_title           : "Tech Blog" # 홈페이지 최 상탄에 들어갈 타이틀
 # breadcrumbs            : false # 브래드크럼 사용 여부 true, false (default) , _data/ui-text.yml에 다국어 지원 가능합니다.
 words_per_minute         : 200 # 해당 포스트 읽는데 걸리는 시간을 계산하기 위해 대락 분당 읽는 수가 몇글자가 될지 적는 공간.
 
@@ -272,18 +272,31 @@ defaults:
       path: ""
       type: posts
     values:
+      header:
+        overlay_image: /assets/images/custom/header_image.jpg
+        overlay_filter: 0.5
+        show_overlay_excerpt: false
+      show_date: true
       layout: single
       author_profile: true
-      # read_time: true
+      read_time: true
       comments: true
       share: true
       related: true
-      # show_date: true
 
-  # _pages
+      # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
+      header:
+        overlay_image: /assets/images/custom/header_image.jpg
+        overlay_filter: 0.5
+        show_overlay_excerpt: false
+      show_date: true
       layout: single
       author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false
