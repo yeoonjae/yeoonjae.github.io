@@ -273,7 +273,7 @@ defaults:
       type: posts
     values:
       header:
-        overlay_image: /assets/images/custom/header-image.jpg
+        overlay_image: /assets/images/custom/header-image.jpeg
         overlay_filter: 0.5
         show_overlay_excerpt: false
       show_date: true
@@ -290,7 +290,7 @@ defaults:
       type: pages
     values:
       header:
-        overlay_image: /assets/images/custom/header-image.jpg
+        overlay_image: /assets/images/custom/header-image.jpeg
         overlay_filter: 0.5
         show_overlay_excerpt: false
       show_date: true
