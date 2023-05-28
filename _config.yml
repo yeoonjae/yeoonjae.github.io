@@ -4,7 +4,7 @@ minimal_mistakes_skin    : "dirt" # 태마 색 설정 ,"default", "air", "aqua",
 
 # Site Settings
 locale                   : "ko-KR"
-title                    : "Teck Blog" # Meta 태그에 들어가는 영역, masthead_title등이 없으면 기본값으로 나온다.
+title                    : "Tech Blog" # Meta 태그에 들어가는 영역, masthead_title등이 없으면 기본값으로 나온다.
 title_separator          : "&#124;" # 타이틀 사이 구분자 <title>Welcome to Jekyll | Minimal Mistakes</title> 해당 형식으로 들어갑니다.
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Yeonjae"
