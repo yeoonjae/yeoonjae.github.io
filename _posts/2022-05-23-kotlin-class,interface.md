@@ -141,6 +141,7 @@ class Outer {
 
 * sealed class는 상위 클래스를 상속한 하위 클래스 정의를 제한할 수 있다. (봉인 클래스)
 
+
 ```kotlin
 sealed class Expr {
     class Num(val value : Int) : Expr()
