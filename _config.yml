@@ -31,8 +31,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
+    theme                : # "github-light" (default), "github-dark"
   giscus:
     repo_id              : # Shown during giscus setup at https://giscus.app
     category_name        : # Full text name of the category
@@ -273,7 +273,7 @@ defaults:
       type: posts
     values:
       header:
-        overlay_image: /assets/images/custom/header_image.jpg
+        overlay_image: /assets/images/custom/header-image.jpg
         overlay_filter: 0.5
         show_overlay_excerpt: false
       show_date: true
@@ -290,7 +290,7 @@ defaults:
       type: pages
     values:
       header:
-        overlay_image: /assets/images/custom/header_image.jpg
+        overlay_image: /assets/images/custom/header-image.jpg
         overlay_filter: 0.5
         show_overlay_excerpt: false
       show_date: true
